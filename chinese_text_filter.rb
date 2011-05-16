@@ -30,6 +30,8 @@ class Chinese_words_filter
     words = text.gsub(/\u3002|\uFF0C|\uFF1A/, '')
   end
 
+  #def remove
+
 end
 
 
@@ -43,4 +45,3 @@ puts text1
 text2 = Chinese_words_filter.instance.remove_punctuation(text1)
 text2.force_encoding("utf-8")
 puts text2
-

@@ -1,4 +1,5 @@
 # encoding: utf-8
+# internal_encoding: utf-8
 
 #for ruby1.8 only now, if you want to change it to te compatible with ruby1.9, 
 #you should force the string to be encoded by utf-8
@@ -36,7 +37,6 @@ class Chinese_text_filter
     simplified_text = String.new
 
     text.each_char do |word|
-      #if map.member?(word)
       if map[word]
          simplified_text << map[word]
       else

@@ -2,7 +2,7 @@
 
 # Simplified / Traditional Chinese conversion tables
 # 
-# Automatically generated using code and data in misc/zhtable/
+# clone from https://github.com/yaoweibin/zh_conversion
 # Do not modify directly!
  
 if RUBY_VERSION < '1.9'

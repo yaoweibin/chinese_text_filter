@@ -1,0 +1,3 @@
+[submodule "zh_conversion"]
+	path = zh_conversion
+	url = git://github.com/yaoweibin/zh_conversion.git

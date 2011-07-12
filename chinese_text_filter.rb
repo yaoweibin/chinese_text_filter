@@ -3,6 +3,7 @@
 require 'singleton'
 require 'rmmseg'
 
+#for ruby1.9
 
 MEANINGLESS = %w(的 得 地)
 

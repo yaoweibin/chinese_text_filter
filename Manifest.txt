@@ -1,0 +1,6 @@
+Manifest.txt
+LICENSE
+README
+lib/chinese_text_filter.rb
+lib/zh_conversion.rb
+test/test.rb
